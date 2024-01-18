@@ -2,11 +2,11 @@
     font-family:'Poppins', sans-serif;
     box-sizing: border-box;
     margin: 0;
-    background-color: rgb(35, 35, 35);
-    color: white;
 }
 
 body {
+    background-color: rgb(35, 35, 35);
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +15,9 @@ body {
     margin-left: 1rem;
 }
 
+a {
+    color: rgba(144, 209, 225, 0.922);
+}
 
 h1 {
     margin-top: 1rem;
