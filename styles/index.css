@@ -8,6 +8,12 @@
 body {
     background-color: rgb(35, 35, 35);
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    gap: 1rem;
 }
 
 a {
@@ -18,21 +24,7 @@ img {
     max-width: 100%;
 }
 
-.index-heading {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.index-body {
-    /* position: relative; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-
-.index-recipe-container {
+.recipes-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
@@ -40,13 +32,11 @@ img {
     width: 90%;
 }
 
-.index-recipe-box {
+.recipe-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100%;
 }
 
 
